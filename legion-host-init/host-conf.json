@@ -1,0 +1,5 @@
+{
+	"host":"XX.XX.XX.XX",
+	"username":"root",
+	"commands":["apt-get update","apt-get install nodejs --assume-yes","ln -s /usr/bin/nodejs /usr/bin/node","apt-get install npm --assume-yes","npm install -g express express-generator forever"]
+}

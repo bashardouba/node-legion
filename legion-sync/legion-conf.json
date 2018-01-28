@@ -1,0 +1,10 @@
+{
+	"local_source":"/path/to/node-legion/",
+	"app_name":"legion-app",
+	"destination":"/root",
+	"hosts":[
+		{ "host":"XX.XX.XX.XX", "username":"root" },
+		{ "host":"XX.XX.XX.XX", "username":"root" },
+		{ "host":"XX.XX.XX.XX", "username":"root" }
+	]
+}

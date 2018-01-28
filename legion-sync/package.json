@@ -1,0 +1,13 @@
+{
+  "name": "legion-sync",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node sync.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "rsync": "^0.6.1",
+    "ssh-exec": "^2.0.0"
+  }
+}

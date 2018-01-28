@@ -1,0 +1,12 @@
+{
+  "name": "legion-host-init",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node init-host.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "ssh-exec": "^2.0.0"
+  }
+}
