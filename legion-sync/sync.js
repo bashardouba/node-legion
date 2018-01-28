@@ -32,7 +32,7 @@ function chain_sync(hosts){
 				    	console.log(error);
 				    }else{
 				    	console_succ("Successfully synced host: "+curr_host.host);
-						exec('cd '+legion_conf.app_name+';dir;npm install;forever start bin/www;', curr_host.username+'@'+curr_host.host, function (err, stdout, stderr) {
+						exec('cd '+legion_conf.app_name+';dir;npm install;NODE_ENV=production forever start bin/www;', curr_host.username+'@'+curr_host.host, function (err, stdout, stderr) {
 							if(err){
 								console_err("Could not npm install and forever start on host: "+curr_host.host);
 								console.log(err, stderr);
